@@ -65,7 +65,7 @@ export default function Home() {
         <input type="file" id="upload" onChange={handleUploadImage} />
         <div className={styles.dragdropWrapper}>
           <div className={styles.dragdropThumb}>
-            <ImageNext src="/thumb-image.svg" alt="" width={120} height={120} />
+            <ImageNext src="thumb-image.svg" alt="" width={120} height={120} loading="eager" />
           </div>
           <div className={styles.dragdropContent}>
             <p className={styles.dragdropTitle}>Faça o upload da sua imagem</p>
@@ -79,13 +79,13 @@ export default function Home() {
         <div className={styles.resultBox}>
           <div className={styles.resultTitle}>Central</div>
           <div className={styles.resultThumb}>
-            <ImageNext src="/thumb-image.svg" alt="" width={120} height={120} ref={imageCenterRef} />
+            <ImageNext src="thumb-image.svg" alt="" width={120} height={120} ref={imageCenterRef} loading="eager" />
           </div>
         </div>
         <div className={styles.resultBox}>
           <div className={styles.resultTitle}>Lateral</div>
           <div className={styles.resultThumb}>
-            <ImageNext src="/thumb-image.svg" alt="" width={120} height={120} ref={imageAsideRef} />
+            <ImageNext src="thumb-image.svg" alt="" width={120} height={120} ref={imageAsideRef} loading="eager" />
           </div>
         </div>
       </div>

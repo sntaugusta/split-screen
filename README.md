@@ -19,9 +19,9 @@ Para garantir o funcionamento correto dos cortes e a melhor qualidade dos result
 
 ### Por que 3286 × 1080?
 Essa resolução permite dividir a imagem horizontalmente em três áreas proporcionais:
-* 683 px - lateral esquerda
+* 683 px - lateral esquerda (1366px / 2)
 * 1920 px - área central
-* 683 px - lateral direita
+* 683 px - lateral direita (1366px / 2)
 
 > [!NOTE]  
 > Imagens com resoluções diferentes ainda podem funcionar, mas o resultado pode não ficar alinhado.
@@ -29,8 +29,7 @@ Essa resolução permite dividir a imagem horizontalmente em três áreas propor
 
 ## 🔧 Possíveis melhorias futuras
 
-* Download das imagens geradas
-* Download das imagens geradas
+* Botão de Download das imagens geradas
 * Ajuste dinâmico de resoluções
 * Versão para vídeo
 
