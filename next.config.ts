@@ -1,12 +1,12 @@
 import type { NextConfig } from 'next';
 
-const repository = 'split-screen';
+const repository = 'docs';
 
 const nextConfig: NextConfig = {
   /* config options here */
   output: 'export',
   basePath: `/${repository}`,
-  assetPrefix: `/${repository}`,
+  assetPrefix: `./`,
   distDir: repository,
   trailingSlash: true,
   images: {

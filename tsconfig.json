@@ -35,8 +35,10 @@
     "22/.next/types/**/*.ts",
     "22/.next/dev/types/**/*.ts",
     "**/*.mts",
-    "split-screen/types/**/*.ts",
-    "split-screen/dev/types/**/*.ts"
+    "docs/split-screen/types/**/*.ts",
+    "docs/split-screen/dev/types/**/*.ts",
+    ".next/types/**/*.ts",
+    ".next/dev/types/**/*.ts"
   ],
   "exclude": [
     "node_modules"
