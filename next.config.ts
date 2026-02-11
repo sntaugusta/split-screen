@@ -1,13 +1,13 @@
 import type { NextConfig } from 'next';
 
-const repository = 'docs';
+const repository = './';
 
 const nextConfig: NextConfig = {
   /* config options here */
   output: 'export',
-  basePath: `/${repository}`,
+  // basePath: `/${repository}`,
   assetPrefix: `./`,
-  distDir: repository,
+  // distDir: repository,
   trailingSlash: true,
   images: {
     unoptimized: true,
