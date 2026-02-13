@@ -1,13 +1,10 @@
 import type { NextConfig } from 'next';
 
-const repository = './';
-
 const nextConfig: NextConfig = {
   /* config options here */
   output: 'export',
-  // basePath: `/${repository}`,
+  basePath: process.env.PAGES_BASE_PATH,
   assetPrefix: `./`,
-  // distDir: repository,
   trailingSlash: true,
   images: {
     unoptimized: true,
