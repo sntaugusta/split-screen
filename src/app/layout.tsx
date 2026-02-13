@@ -1,3 +1,5 @@
+import { UploadContextProvider } from '@/context/upload.context';
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -8,7 +10,9 @@ export default function RootLayout({
       <head>
         <title>Backstage Split Screen</title>
       </head>
-      <body>{children}</body>
+      <body>
+        <UploadContextProvider>{children}</UploadContextProvider>
+      </body>
     </html>
   );
 }
